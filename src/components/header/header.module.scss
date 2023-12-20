@@ -1,0 +1,21 @@
+.text {
+  display: flex;
+
+  margin-right: 2px;
+
+  font-family: monospace;
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+  letter-spacing: .3rem;
+}
+
+.icon {
+  display: flex;
+  margin-right: 1px;
+}
+
+.box {
+  display: flex;
+  flex-grow: 1;
+}

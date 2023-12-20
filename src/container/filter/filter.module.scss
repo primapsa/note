@@ -1,0 +1,21 @@
+.filter {
+ width: 150px;
+}
+
+.chipbox {
+ display: flex;
+ gap: 1px;
+}
+
+@media screen and (width <= 768px) {
+ .filter {
+  width: 400px;
+  margin-top: 30px !important;
+ }
+}
+
+@media screen and (width <= 420px) {
+ .filter {
+  width: 300px;
+ }
+}

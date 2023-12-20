@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+
+  border-color: var(---color-light-1000);
+  border-radius: 5px;
+  box-shadow: 0 0 8px 2px rgb(34 60 80 / 30%);
+}
+
+.input {
+  margin: 10px 0;
+
+  &.Mui-focused {
+    border: none !important;
+    outline: none !important;
+  }
+
+ &:focus {
+   border: none !important;
+    outline: none !important;
+  }
+
+  input {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 15px;
+
+    border: none;
+
+  }
+}

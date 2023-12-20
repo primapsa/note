@@ -31,6 +31,7 @@ module.exports = {
       { css: 'always', json: 'always', scss: 'always', svg: 'always' },
     ],
     'import/no-duplicates': 'off',
+    'import/no-unresolved': 'off',
     'import/order': 'off',
     'import/prefer-default-export': 'off',
     'max-lines': ['error', 300],
